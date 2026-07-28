@@ -1,0 +1,16 @@
+{
+  "name": "nt-bundle-liabilities",
+  "version": "1.0.0",
+  "description": "Point-in-time share liability report for Neutral Trade bundle vaults, read directly from Solana mainnet",
+  "main": "report.js",
+  "bin": {
+    "nt-bundle-liabilities": "./report.js"
+  },
+  "scripts": {
+    "report": "node report.js",
+    "report:csv": "node report.js --csv"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
